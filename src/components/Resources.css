@@ -1,0 +1,43 @@
+.resources-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos para modo diurno */
+.resources-intro h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.resources-list h2, .resources-tools h2 {
+  font-size: 2rem;
+  color: #2980b9;
+}
+
+.resources-intro p,
+.resources-list p,
+.resources-tools p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+/* Estilos para modo nocturno */
+.dark-mode .resources-intro h1,
+.dark-mode .resources-list h2,
+.dark-mode .resources-tools h2 {
+  color: #90e0ef; /* Cambia el color del texto */
+}
+
+.dark-mode .resources-intro p,
+.dark-mode .resources-list p,
+.dark-mode .resources-tools p, 
+.dark-mode .resources-list a,
+.dark-mode .resources-tools a {
+  color: #f5f5f5; /* Color del texto en modo oscuro */
+}
+
+.dark-mode {
+  background-color: #1a1a1a; /* Fondo oscuro para el contenedor */
+}
+

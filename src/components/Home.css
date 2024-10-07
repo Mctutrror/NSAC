@@ -1,0 +1,37 @@
+.home-container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.hero-video-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* El video ocupará el 100% de la pantalla */
+  overflow: hidden;
+  z-index: 1; /* Para que el video esté detrás de la barra */
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para que el video se ajuste al contenedor */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente detrás del texto */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2; /* Asegura que el texto esté por encima del video */
+}

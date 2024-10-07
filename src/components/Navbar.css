@@ -1,0 +1,116 @@
+* {
+  list-style: none; /* Elimina la decoración de listas */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000; /* Color de fondo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+  position: static;
+  z-index: 1000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff; /* Color del título */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between; /* Espacio entre el logo y la navbar */
+}
+
+.navbar {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos de la barra */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff; /* Color de los enlaces */
+  font-weight: 500;
+  font-size: 18px; /* Tamaño de letra aumentado */
+  padding: 10px 20px; /* Espacio interno más grande para simular botones */
+  border: 2px solid transparent; /* Borde inicial */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s; /* Transiciones suaves */
+}
+
+.navbar a:hover {
+  color: #007BFF; /* Color del texto en hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo en hover */
+  border-color: #007BFF; /* Borde en hover */
+}
+
+.menu-item {
+  position: relative; /* Necesario para posicionar el submenú */
+}
+
+.submenu {
+  display: none; /* Ocultar inicialmente */
+  position: absolute; /* Posición absoluta para el submenú */
+  top: 100%; /* Se coloca justo debajo del menú principal */
+  left: -10px; /* Aparece a la izquierda del menú principal */
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo más claro con transparencia */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  padding: 15px; /* Espacio interno mayor */
+  z-index: 1000;
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+.menu-item:hover .submenu {
+  display: block; /* Mostrar submenú al hacer hover */
+}
+
+.submenu li {
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.submenu a {
+  padding: 1px; /* Espacio interno de los enlaces del submenú */
+  color: #007BFF; /* Color de los enlaces del submenú */
+  font-size: 16px; /* Tamaño de letra para los submenús */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  border-radius: 4px; /* Bordes redondeados para enlaces del submenú */
+}
+
+.submenu a:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo en hover para submenús */
+  color: #0056b3; /* Color de texto en hover para submenús */
+}
+
+.toggle-mode {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #ffffff; /* Color del botón de modo */
+  transition: color 0.3s;
+}
+
+.toggle-mode:hover {
+  color: #ffd700; /* Color en hover para el botón de modo */
+}
+
+#logo {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(132, 132, 132, 0.5); /* Sombra */
+
+}
+
+/* Estilos para el modo nocturno */
+body.dark-mode nav {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo de la barra de navegación en modo nocturno */
+}
+
+body.dark-mode .navbar a {
+  color: #90e0ef; /* Color de los enlaces en modo nocturno */
+}
