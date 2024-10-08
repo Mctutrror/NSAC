@@ -1,13 +1,33 @@
-// src/components/LightSection1.js
 import React from 'react';
+import './GlobalStyles.css';
 
-const LightSection1 = () => {
+const ContentBlock = () => {
   return (
-    <div>
-      <h1>Sección I: Propiedades fundamentales de la luz</h1>
-      <p>Contenido de la Sección I...</p>
+    <div className="content-container">
+      <section className="content-section">
+        <div className="section-block">
+          <h1>Opciones para acceder a los datos de PACE</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        
+        <div className="section-block">
+          <h2>Impacto Global</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div className="section-block">
+          <h2>Nuestra Tecnología</h2>
+          <p>
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
 
-export default LightSection1;  // Exportación por defecto
+export default ContentBlock;

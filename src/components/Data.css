@@ -17,7 +17,8 @@
 
 .data-overview p, .data-types ul, .data-access p {
   font-size: 1.2rem; /* Tamaño consistente */
-  color: #f5f5f5ff;
+  color: #34495e;
+  text-align: justify;
 }
 
 .data-types ul {
@@ -34,7 +35,8 @@
 
 .dark-mode .data-overview p,
 .dark-mode .data-types p,
-.dark-mode .data-access p {
+.dark-mode .data-access p,
+.dark-mode .data-types ul {
   color: #f5f5f5; /* Color del texto en modo oscuro */
 }
 

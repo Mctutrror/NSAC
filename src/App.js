@@ -18,6 +18,7 @@ import AdditionalProducts from './components/AdditionalProducts';
 import Fitopia from './components/Fitopia';
 import Tutorials from './components/Tutorials';
 import Chlorophyll from './components/Chlorophyll';
+import NASA from './components/NASA';
 import BuildInstructions from './components/BuildInstructions';
 import WhyPace from './components/WhyPace';
 import LatestNews from './components/LatestNews';
@@ -53,6 +54,7 @@ function App() {
                     <Route path="/resources/fitopia" element={<Fitopia />} />
                     <Route path="/resources/tutorials" element={<Tutorials />} />
                     <Route path="/resources/chlorophyll" element={<Chlorophyll />} />
+                    <Route path='/resources/NASA' element={<NASA/>}/>
                     <Route path="/resources/build-instructions" element={<BuildInstructions />} />
                     <Route path="/resources/why-pace" element={<WhyPace />} />
                     <Route path="/resources/latest-news" element={<LatestNews />} />

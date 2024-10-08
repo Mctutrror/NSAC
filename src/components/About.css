@@ -24,6 +24,8 @@
 .about-mission p, .about-impact p, .about-technology p {
   font-size: 1.2rem; /* Tamaño consistente */
   color: #34495e;
+  text-align: justify;
+
 }
 
 /* Estilos para modo nocturno */

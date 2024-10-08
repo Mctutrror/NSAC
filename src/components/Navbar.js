@@ -38,7 +38,7 @@ function Navbar({ toggleNightMode, isNightMode }) {
                                     <li><Link to="/resources/fitopia">Fitopia</Link></li>
                                     <li><Link to="/resources/tutorials">Exploración del fitoplancton</Link></li>
                                     <li><Link to="/resources/chlorophyll">Tutoriales y recursos</Link></li>
-                                    <li><Link to="/resources/chlorophyll">NASA's long-term chlorophyll record is unparalleled</Link></li>
+                                    <li><Link to="/resources/NASA">NASA's long-term chlorophyll record is unparalleled</Link></li>
                                 </ul>
                             </li>
                             <li className="submenu-item">¡Construye tu propio RITMO!

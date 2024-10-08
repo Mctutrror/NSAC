@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NasaSpace/static/css/main.c6274043.css",
+    "main.js": "/NasaSpace/static/js/main.a998752c.js",
+    "static/js/453.bdab2c71.chunk.js": "/NasaSpace/static/js/453.bdab2c71.chunk.js",
+    "static/media/imagen.png": "/NasaSpace/static/media/imagen.3459c9a87f11d06ace57.png",
+    "index.html": "/NasaSpace/index.html",
+    "main.c6274043.css.map": "/NasaSpace/static/css/main.c6274043.css.map",
+    "main.a998752c.js.map": "/NasaSpace/static/js/main.a998752c.js.map",
+    "453.bdab2c71.chunk.js.map": "/NasaSpace/static/js/453.bdab2c71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6274043.css",
+    "static/js/main.a998752c.js"
+  ]
+}

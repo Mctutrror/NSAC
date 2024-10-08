@@ -1,0 +1,38 @@
+/* Contenedor genérico */
+.content-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para modo diurno */
+  .content-section h1 {
+    font-size: 2.5rem; /* Tamaño consistente */
+    color: #2c3e50;
+  }
+  
+  .content-section h2 {
+    font-size: 2rem; /* Tamaño consistente */
+    color: #2980b9;
+  }
+  
+  .content-section p {
+    font-size: 1.2rem; /* Tamaño consistente */
+    color: #34495e;
+    text-align: justify;
+  }
+  
+  /* Modo nocturno */
+  .dark-mode .content-section h1,
+  .dark-mode .content-section h2 {
+    color: #90e0ef; /* Cambia el color del texto en modo oscuro */
+  }
+  
+  .dark-mode .content-section p {
+    color: #f5f5f5; /* Color del texto en modo oscuro */
+  }
+  
+  .dark-mode {
+    background-color: #1a1a1a; /* Fondo oscuro */
+  }
+  
