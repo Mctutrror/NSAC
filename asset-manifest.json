@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NSAC/static/css/main.4f695743.css",
+    "main.js": "/NSAC/static/js/main.8f0dc241.js",
+    "static/js/453.bdab2c71.chunk.js": "/NSAC/static/js/453.bdab2c71.chunk.js",
+    "static/media/PACE.png": "/NSAC/static/media/PACE.9a7a94a6a808fcb9dfe4.png",
+    "static/media/imagen.png": "/NSAC/static/media/imagen.3459c9a87f11d06ace57.png",
+    "index.html": "/NSAC/index.html",
+    "main.4f695743.css.map": "/NSAC/static/css/main.4f695743.css.map",
+    "main.8f0dc241.js.map": "/NSAC/static/js/main.8f0dc241.js.map",
+    "453.bdab2c71.chunk.js.map": "/NSAC/static/js/453.bdab2c71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f695743.css",
+    "static/js/main.8f0dc241.js"
+  ]
+}
